@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { Component } from "react";
+import React, { useState } from "react";
 import ButtonsPannel from "./ButtonsPannel";
 import ClockFunctional from "./ClockFunctional";
 import './css/Counter.css';
 import Display from "./Display";
 import Step from "./Step";
+import {  Link } from "react-router-dom";
 
 
 const Counter = (props) => {
@@ -61,6 +61,7 @@ const Counter = (props) => {
             <div>
                 {(displayClock ? <ClockFunctional clockMethod={showHideClock}/> : <span onClick={showHideClock}>Show clock</span>)}
             </div>
+            <Link to="/users-list">About</Link>
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import './UsersList.css'
+import './css/UsersList.css'
 import ListToDisplay from './ListToDisplay'
+import {  Link } from "react-router-dom"
 
 const UsersList = () => {
 	const [name, setName] = useState('')
@@ -46,6 +47,7 @@ const UsersList = () => {
 
 				<ListToDisplay userList={userList} deleteUserMth={deleteUser} />
 			</div>
+			<Link to="/">Counter</Link>
 		</section>
 	)
 }
