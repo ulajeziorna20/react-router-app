@@ -1,7 +1,7 @@
 import React from "react"
 import { Outlet, Link } from "react-router-dom"
 
-function Home() {
+function SecondHome() {
   return (
     <>
       <main>
@@ -22,4 +22,4 @@ function Home() {
   )
 }
 
-export default Home
+export default SecondHome
