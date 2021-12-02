@@ -47,7 +47,7 @@ const UsersList = () => {
 
         <ListToDisplay userList={userList} deleteUserMth={deleteUser} />
       </div>
-      <Link to="/">Counter</Link>
+      <Link to="/home">Back to Home Page</Link>
     </section>
   )
 }
