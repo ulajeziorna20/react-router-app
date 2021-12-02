@@ -5,10 +5,10 @@ function About() {
   return (
     <>
       <main>
-        <h2>Who are we?</h2>
-        <p>That feels like an existential question, don't you think?</p>
+        <h2>I am About Subpage!!! That's amazing.</h2>
+        <p>I was a trial page like SecondPage! Now I am one of the children of the App Route, what do you think?</p>
       </main>
-      <h3>Have you been to these subpages?</h3>
+      <h5>Have you been to these subpages?</h5>
       <nav className="second-home-navigation">
         <ul>
           <li>

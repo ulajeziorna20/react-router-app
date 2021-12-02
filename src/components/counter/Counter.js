@@ -51,7 +51,7 @@ const Counter = (props) => {
         ) : (
           <span onClick={showHideClock}>Show clock</span>
         )}
-        <h3>Have you been to these subpages?</h3>
+        <h5>Have you been to these subpages?</h5>
         <nav className="second-home-navigation">
           <ul>
             <li>
