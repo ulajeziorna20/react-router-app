@@ -10,7 +10,29 @@ function SecondHome() {
           I was a trial homepage! Now I am one of the children of the App Route!
         </p>
       </main>
-      <nav></nav>
+      <h3>Have you been to these subpages?</h3>
+      <nav className="second-home-navigation">
+        <ul>
+          <li>
+            {" "}
+            <Link to="/users-list" className="link-main-list">
+              Users List
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link to="/about" className="link-main-list">
+              About
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link to="/counter" className="link-main-list">
+              Counter
+            </Link>
+          </li>
+        </ul>
+      </nav>
       <br />
       <nav className="main-navigation">
         <Link to="/" className="link-main-list">
