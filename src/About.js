@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom"
+import { Outlet, Link } from "react-router-dom"
 
 
 function About() {
@@ -14,6 +14,9 @@ function About() {
       </main>
       <nav>
         {/* <Link to="/">Home</Link> */}
+      </nav>
+      <nav className="main-navigation">
+        <Link to="/" className="link-main-list"> ... Back to Home Page</Link>
       </nav>
     </>
   );

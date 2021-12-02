@@ -4,7 +4,7 @@ import ClockFunctional from "./ClockFunctional"
 import "./css/Counter.css"
 import Display from "./Display"
 import Step from "./Step"
-// import { Link } from "react-router-dom"
+import { Outlet, Link } from "react-router-dom"
 
 const Counter = (props) => {
   const [counterValue, setCounterValue] = useState(props.initValue)
@@ -51,8 +51,13 @@ const Counter = (props) => {
         ) : (
           <span onClick={showHideClock}>Show clock</span>
         )}
+        <nav className="main-navigation">
+          <Link to="/" className="link-main-list">
+            {" "}
+            ... Back to Home Page
+          </Link>
+        </nav>
       </div>
-      {/* <Link to="/users-list">UsersList</Link> */}
     </div>
   )
 }
