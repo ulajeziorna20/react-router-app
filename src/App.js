@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to React Router!</h1>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="users-list" element={<UsersList />} />

@@ -6,8 +6,8 @@ function Home() {
   return (
     <>
       <main>
-        <h2>Welcome to the Home!</h2>
-        <p>You can do this, I believe in you.</p>
+        <h2>Welcome to the Second Home!</h2>
+        <p>I was a trial homepage! Now I am one of the children of the App Route!</p>
       </main>
       <nav>
     
