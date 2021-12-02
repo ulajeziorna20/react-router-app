@@ -11,6 +11,7 @@ function HomePage() {
           You are on the <span className="home-page">Home Page</span>!
         </h1>
         <h3>Where would you go now? :D</h3>
+    
       </header>
 
       <nav className="main-navigation">
