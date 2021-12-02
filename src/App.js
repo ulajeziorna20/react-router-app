@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="users-list" element={<UsersList />} />
-          <Route path="counter" element={<Counter />} />
+          <Route path="counter" element={<Counter initValue={108} />} />
           <Route path="about" element={<About />} />
           <Route path="second-home" element={<SecondHome />} />
         </Routes>
