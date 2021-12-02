@@ -21,6 +21,7 @@ const Counter = (props) => {
 
   const buttonHandleChange = (action) => {
     let currentCounterValue = counterValue
+    console.log(currentCounterValue);
     let currentStepValue = stepValue
     console.log(currentStepValue)
 
@@ -80,6 +81,7 @@ const Counter = (props) => {
             ... Back to Home Page
           </Link>
         </nav>
+        <Outlet />
       </div>
     </div>
   )

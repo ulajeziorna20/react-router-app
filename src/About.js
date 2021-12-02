@@ -37,6 +37,7 @@ function About() {
           ... Back to Home Page
         </Link>
       </nav>
+      <Outlet />
     </>
   )
 }

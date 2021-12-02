@@ -40,6 +40,7 @@ function SecondHome() {
           ... Back to Home Page
         </Link>
       </nav>
+      <Outlet />
     </>
   )
 }

@@ -77,6 +77,7 @@ const UsersList = () => {
           ... Back to Home Page
         </Link>
       </nav>
+      <Outlet />
     </section>
   )
 }
